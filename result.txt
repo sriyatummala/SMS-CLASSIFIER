@@ -1,0 +1,21 @@
+Accuracy: 96.77%
+Precision (Class 0): 96.42%
+Recall (Class 0): 100.00%
+F1 Score (Class 0): 98.18%
+Precision (Class 1): 100.00%
+Recall (Class 1): 75.34%
+F1 Score (Class 1): 85.94%
+
+Confusion Matrix:
+ [[1453    0]
+ [  54  165]]
+
+Classification Report:
+               precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98      1453
+        spam       1.00      0.75      0.86       219
+
+    accuracy                           0.97      1672
+   macro avg       0.98      0.88      0.92      1672
+weighted avg       0.97      0.97      0.97      1672
